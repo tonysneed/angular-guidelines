@@ -10,7 +10,7 @@
 5. Avoid using `any` unless absolutely necessary, using [classes](https://www.typescriptlang.org/docs/handbook/classes.html) and [interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html) for greater compile-time type safety
 6. Use the [object-oriented](http://rachelappel.com/write-object-oriented-javascript-with-typescript/) features of TypeScript / ES 2015+ in order to implement [design patterns](https://github.com/torokmark/design_patterns_in_typescript) in a type-safe manner
 7. Place business logic in [domain classes](https://www.amazon.com/exec/obidos/ASIN/0321125215/domainlanguag-20), rather than in components or services.
-8. Remove commented code (`//deadFunction()`) and console log statements (`console.log('Debugging code')`) from code before pushing a commit
+8. Remove commented code (`//deadFunction()`) and console log statements (`console.log('Debugging code')`) before pushing a commit
 9. Run `ng lint`, `ng test` and `ng e2e` prior to pushing a final commit to a pull request.
 10. [Inject services](https://angular.io/guide/dependency-injection) into model classes and components.
 11. Properly scope services to components, feature modules (shared folder in feature), or app-wide (core folder).
