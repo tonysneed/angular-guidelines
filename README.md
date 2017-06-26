@@ -18,6 +18,13 @@
 13. Write [unit tests](https://angular.io/guide/testing) in [Jasmine](https://jasmine.github.io/) to validate business logic in model classes, mocking services with [spies](https://jasmine.github.io/2.0/introduction.html#section-Spies) to stub dependencies.
 14. Unit test *presentation logic* in components.
 15. Create [temporary local git branches](http://jaimeiniesta.github.io/learn.github.com/p/branching.html) for feature sub-tasks, then [rebase](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) them into your local feature branch and delete the temporary branch.
+
+    ```
+    git checkout feature/branch-name
+    git rebase temporary-branch
+    git branch -d temporary-branch
+    ```
+
 16. Before creating a final commit to a pull request, make sure to [pull and rebase](http://gitready.com/advanced/2009/02/11/pull-with-rebase.html) commits from the working branch of the upstream repository, resolving any conflicts that may occur.\*
 17. Create a final commit by [squashing](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html) previous commits in a pull request by using interactive rebase.\*
 
